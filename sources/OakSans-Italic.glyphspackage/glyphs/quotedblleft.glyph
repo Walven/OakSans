@@ -1,0 +1,39 @@
+{
+glyphname = quotedblleft;
+kernLeft = tall_punctuation;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (205,583);
+ref = comma;
+},
+{
+angle = 180;
+pos = (336,583);
+ref = comma;
+}
+);
+width = 298;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+angle = 180;
+pos = (283,591);
+ref = comma;
+},
+{
+angle = 180;
+pos = (522,591);
+ref = comma;
+}
+);
+width = 497;
+}
+);
+unicode = 8220;
+}

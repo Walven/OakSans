@@ -1,0 +1,28 @@
+{
+glyphname = zerosuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,100);
+ref = zero.numr;
+}
+);
+width = 406;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (0,100);
+ref = zero.numr;
+}
+);
+width = 406;
+}
+);
+metricLeft = zero.numr;
+metricRight = zero.numr;
+unicode = 8304;
+}

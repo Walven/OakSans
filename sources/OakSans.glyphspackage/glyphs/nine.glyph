@@ -1,0 +1,54 @@
+{
+glyphname = nine;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (560,700);
+ref = six;
+}
+);
+width = 560;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+angle = 180;
+pos = (593,699);
+ref = six;
+}
+);
+width = 593;
+},
+{
+associatedMasterId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+layerId = "37AA6B32-D15E-4F2F-AC30-6FA93EA74AB8";
+name = "16 Jun 21, 21:23";
+shapes = (
+{
+angle = 180;
+pos = (593,700);
+ref = six;
+}
+);
+width = 593;
+},
+{
+associatedMasterId = m01;
+layerId = "2402B0D9-994B-4043-8E35-5D52272B2983";
+name = "16 Jun 21, 21:23";
+shapes = (
+{
+angle = 180;
+pos = (560,700);
+ref = six;
+}
+);
+width = 560;
+}
+);
+unicode = 57;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Umacron;
+kernLeft = round_left_uppercase;
+kernRight = round_right_uppercase;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (205,170);
+ref = macroncomb;
+}
+);
+width = 709;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (200,200);
+ref = macroncomb;
+}
+);
+width = 700;
+}
+);
+unicode = 362;
+}

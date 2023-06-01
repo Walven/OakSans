@@ -1,0 +1,44 @@
+{
+glyphname = dcroat;
+kernLeft = "round-left-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(587,571,l),
+(587,626,l),
+(279,626,l),
+(279,571,l)
+);
+},
+{
+ref = d;
+}
+);
+width = 582;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+closed = 1;
+nodes = (
+(614,545,l),
+(614,650,l),
+(260,650,l),
+(260,545,l)
+);
+},
+{
+ref = d;
+}
+);
+width = 604;
+}
+);
+metricLeft = d;
+unicode = 273;
+}

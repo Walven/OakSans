@@ -1,0 +1,28 @@
+{
+glyphname = threeinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-17,-100);
+ref = three.dnom;
+}
+);
+width = 329;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+pos = (-17,-100);
+ref = three.dnom;
+}
+);
+width = 343;
+}
+);
+metricLeft = three.dnom;
+metricRight = three.dnom;
+unicode = 8323;
+}

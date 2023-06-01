@@ -1,0 +1,27 @@
+{
+glyphname = two.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-280);
+ref = two.numr;
+}
+);
+width = 359;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (0,-280);
+ref = two.numr;
+}
+);
+width = 372;
+}
+);
+metricLeft = "=two*.66";
+metricRight = "=two*.66";
+}

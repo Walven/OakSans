@@ -1,0 +1,31 @@
+{
+glyphname = quotedblright;
+kernLeft = tall_punctuation;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (297,1197);
+ref = quotedblleft;
+}
+);
+width = 297;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+angle = 180;
+pos = (493,1145);
+ref = quotedblleft;
+}
+);
+width = 493;
+}
+);
+metricLeft = "=|quotedblleft";
+metricRight = "=|quotedblleft";
+unicode = 8221;
+}

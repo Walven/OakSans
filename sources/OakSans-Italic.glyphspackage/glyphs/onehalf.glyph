@@ -1,0 +1,40 @@
+{
+glyphname = onehalf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (283,0);
+ref = fraction;
+},
+{
+pos = (499,0);
+ref = two.dnom;
+}
+);
+width = 858;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (283,0);
+ref = fraction;
+},
+{
+pos = (509,0);
+ref = two.dnom;
+}
+);
+width = 882;
+}
+);
+unicode = 189;
+}

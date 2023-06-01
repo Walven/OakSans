@@ -1,0 +1,28 @@
+{
+glyphname = nineinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-100);
+ref = nine.dnom;
+}
+);
+width = 354;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (0,-100);
+ref = nine.dnom;
+}
+);
+width = 367;
+}
+);
+metricLeft = nine.dnom;
+metricRight = nine.dnom;
+unicode = 8329;
+}

@@ -1,0 +1,45 @@
+{
+glyphname = zero.tf.zero;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-9,0);
+ref = zero;
+},
+{
+closed = 1;
+nodes = (
+(157,125,l),
+(512,529,l),
+(474,576,l),
+(109,159,l)
+);
+}
+);
+width = 620;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+alignment = -1;
+pos = (-8,0);
+ref = zero;
+},
+{
+closed = 1;
+nodes = (
+(233,154,l),
+(570,546,l),
+(418,546,l),
+(82,154,l)
+);
+}
+);
+width = 640;
+}
+);
+}

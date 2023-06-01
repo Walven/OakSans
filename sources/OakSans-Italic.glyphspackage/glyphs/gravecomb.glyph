@@ -1,0 +1,66 @@
+{
+glyphname = gravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (175,500);
+},
+{
+name = top;
+pos = (175,500);
+}
+);
+guides = (
+{
+pos = (-158,574);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,574,l),
+(208,700,l),
+(125,700,l),
+(213,574,l)
+);
+}
+);
+width = 281;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (229,500);
+},
+{
+name = top;
+pos = (229,500);
+}
+);
+guides = (
+{
+pos = (-26,554);
+}
+);
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+closed = 1;
+nodes = (
+(348,554,l),
+(260,701,l),
+(75,701,l),
+(182,554,l)
+);
+}
+);
+width = 297;
+}
+);
+unicode = 768;
+}

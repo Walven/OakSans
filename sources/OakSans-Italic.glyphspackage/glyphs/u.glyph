@@ -1,0 +1,89 @@
+{
+glyphname = u;
+kernLeft = short_lower_case;
+layers = (
+{
+anchors = (
+{
+name = ogonek;
+pos = (437,0);
+},
+{
+name = top;
+pos = (310,500);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(437,0,l),
+(521,500,l),
+(461,500,l),
+(393,92,l),
+(381,0,l)
+);
+},
+{
+angle = 180;
+pos = (458,500);
+ref = arch;
+},
+{
+closed = 1;
+nodes = (
+(119,242,l),
+(162,500,l),
+(102,500,l),
+(54,216,l)
+);
+}
+);
+width = 554;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (492,0);
+},
+{
+name = top;
+pos = (329,500);
+}
+);
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+closed = 1;
+nodes = (
+(492,0,l),
+(576,500,l),
+(396,500,l),
+(328,92,l),
+(322,0,l)
+);
+},
+{
+angle = 180;
+pos = (403,500);
+ref = arch;
+},
+{
+closed = 1;
+nodes = (
+(220,244,l),
+(263,500,l),
+(83,500,l),
+(40,244,l)
+);
+}
+);
+width = 579;
+}
+);
+metricLeft = "=|n";
+metricRight = "=|n";
+unicode = 117;
+}

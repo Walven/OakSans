@@ -1,0 +1,57 @@
+{
+glyphname = greaterequal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = greater;
+},
+{
+closed = 1;
+nodes = (
+(439,0,l),
+(448,51,l),
+(117,51,l),
+(108,0,l)
+);
+}
+);
+width = 620;
+},
+{
+guides = (
+{
+angle = 80.5;
+pos = (118,227);
+},
+{
+angle = 80.5;
+pos = (518,227);
+}
+);
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+angle = 0.5;
+pos = (15,89);
+ref = greater;
+scale = (0.9975,0.9);
+},
+{
+closed = 1;
+nodes = (
+(480,0,l),
+(500,120,l),
+(100,120,l),
+(80,0,l)
+);
+}
+);
+width = 640;
+}
+);
+metricLeft = "=greater";
+metricRight = "=greater";
+unicode = 8805;
+}

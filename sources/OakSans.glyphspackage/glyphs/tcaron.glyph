@@ -1,0 +1,45 @@
+{
+glyphname = tcaron;
+kernLeft = tall_left_lowercase;
+kernRight = t;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t;
+},
+{
+closed = 1;
+nodes = (
+(287,553,l),
+(357,725,l),
+(286,725,l),
+(231,553,l)
+);
+}
+);
+width = 377;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+alignment = -1;
+ref = t;
+},
+{
+closed = 1;
+nodes = (
+(420,581,l),
+(463,700,l),
+(313,700,l),
+(290,581,l)
+);
+}
+);
+width = 454;
+}
+);
+unicode = 357;
+}

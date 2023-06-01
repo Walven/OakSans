@@ -1,0 +1,48 @@
+{
+glyphname = commaaccentcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (36,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-18,-200,l),
+(66,-64,l),
+(-6,-64,l),
+(-75,-200,l)
+);
+}
+);
+width = 119;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (79,0);
+}
+);
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,-200,l),
+(170,-40,l),
+(-2,-40,l),
+(-75,-200,l)
+);
+}
+);
+width = 219;
+}
+);
+unicode = 806;
+}

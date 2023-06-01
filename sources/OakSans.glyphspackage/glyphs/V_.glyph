@@ -1,0 +1,58 @@
+{
+glyphname = V;
+kernLeft = undercut_left_uppercase;
+kernRight = undercut_right_uppercase;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,0,l),
+(671,700,l),
+(604,700,l),
+(310,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(369,0,l),
+(76,700,l),
+(10,700,l),
+(304,0,l)
+);
+}
+);
+width = 681;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+closed = 1;
+nodes = (
+(476,0,l),
+(743,700,l),
+(543,700,l),
+(297,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(455,0,l),
+(207,700,l),
+(7,700,l),
+(276,0,l)
+);
+}
+);
+width = 750;
+}
+);
+metricLeft = A;
+metricRight = A;
+unicode = 86;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = adieresis;
+kernLeft = tall_left_lowercase;
+kernRight = "arch-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (117,0);
+ref = dieresiscomb;
+}
+);
+width = 501;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (-28,0);
+ref = dieresiscomb;
+}
+);
+width = 546;
+}
+);
+unicode = 228;
+}

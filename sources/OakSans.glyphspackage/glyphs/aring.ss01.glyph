@@ -1,0 +1,33 @@
+{
+glyphname = aring.ss01;
+kernLeft = "round-left-lowercase";
+kernRight = "arch-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (144,0);
+ref = ringcomb;
+}
+);
+width = 582;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (110,0);
+ref = ringcomb;
+}
+);
+width = 604;
+}
+);
+}

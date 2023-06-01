@@ -1,0 +1,28 @@
+{
+glyphname = sevensuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,100);
+ref = seven.numr;
+}
+);
+width = 338;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (0,100);
+ref = seven.numr;
+}
+);
+width = 356;
+}
+);
+metricLeft = seven.numr;
+metricRight = seven.numr;
+unicode = 8311;
+}

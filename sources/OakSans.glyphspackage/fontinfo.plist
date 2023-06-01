@@ -1,0 +1,1006 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+300 = 300;
+400 = 400;
+500 = 472;
+600 = 558;
+700 = 660;
+800 = 780;
+900 = 900;
+};
+};
+},
+{
+name = "Enforce Compatibility Check";
+value = 0;
+},
+{
+name = "Variable Font Origin";
+value = m01;
+}
+);
+date = "2023-05-29 19:00:08 +0000";
+familyName = "Oak Sans";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+languagesystem latn NLD;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+feature case;
+feature zero;
+feature ss01;
+feature ss02;
+feature ss03;
+feature ss04;
+";
+tag = aalt;
+},
+{
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+    @SoftDotted = [i j];
+	@SoftDottedDotless = [idotless jdotless idotless jdotless];
+	sub iogonek' @CombiningTopAccents by idotless ogonekcomb;
+	sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by idotless ogonekcomb;
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+
+lookup locl_latn_3 {
+	script latn;
+	language NLD;
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_3;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+";
+tag = tnum;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+sub zero.tf by zero.tf.zero;
+";
+tag = zero;
+},
+{
+automatic = 1;
+code = "sub a by a.ss01;
+sub aacute by aacute.ss01;
+sub abreve by abreve.ss01;
+sub acaron by acaron.ss01;
+sub acircumflex by acircumflex.ss01;
+sub adieresis by adieresis.ss01;
+sub agrave by agrave.ss01;
+sub amacron by amacron.ss01;
+sub aogonek by aogonek.ss01;
+sub aring by aring.ss01;
+sub atilde by atilde.ss01;
+";
+labels = (
+{
+language = dflt;
+value = "Single-storey a";
+}
+);
+tag = ss01;
+},
+{
+automatic = 1;
+code = "sub I by I.ss02;
+sub IJ by IJ.ss02;
+sub Iacute by Iacute.ss02;
+sub Icircumflex by Icircumflex.ss02;
+sub Idieresis by Idieresis.ss02;
+sub Idotaccent by Idotaccent.ss02;
+sub Igrave by Igrave.ss02;
+sub Imacron by Imacron.ss02;
+sub Iogonek by Iogonek.ss02;
+";
+labels = (
+{
+language = dflt;
+value = "I disambiguation";
+}
+);
+tag = ss02;
+},
+{
+automatic = 1;
+code = "sub l by l.ss03;
+sub lacute by lacute.ss03;
+sub lcaron by lcaron.ss03;
+sub lcommaaccent by lcommaaccent.ss03;
+sub lslash by lslash.ss03;
+";
+labels = (
+{
+language = dflt;
+value = "L disambiguation";
+}
+);
+tag = ss03;
+},
+{
+automatic = 1;
+code = "sub one.tf by one.tf.ss04;
+";
+labels = (
+{
+language = dflt;
+value = "Alternate Tabular 1";
+}
+);
+tag = ss04;
+}
+);
+fontMaster = (
+{
+axesValues = (
+300
+);
+customParameters = (
+{
+name = typoAscender;
+value = 950;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 979;
+},
+{
+name = winDescent;
+value = 222;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+guides = (
+{
+pos = (75,700);
+}
+);
+iconName = Light;
+id = m01;
+metricValues = (
+{
+over = 12;
+pos = 800;
+},
+{
+over = 12;
+pos = 700;
+},
+{
+over = 12;
+pos = 500;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -200;
+},
+{
+},
+{
+pos = 720;
+}
+);
+name = Light;
+stemValues = (
+55,
+60
+);
+userData = {
+GSCornerRadius = 15;
+GSExtrudeAngle = 30;
+GSExtrudeOffset = 15;
+GSOffsetHorizontal = 30;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetVertical = 27;
+};
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = typoAscender;
+value = 950;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 979;
+},
+{
+name = winDescent;
+value = 222;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+guides = (
+{
+pos = (329,-210);
+},
+{
+pos = (75,700);
+}
+);
+iconName = Bold;
+id = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+metricValues = (
+{
+over = 12;
+pos = 800;
+},
+{
+over = 12;
+pos = 700;
+},
+{
+over = 12;
+pos = 500;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -200;
+},
+{
+},
+{
+pos = 720;
+}
+);
+name = Black;
+stemValues = (
+165,
+185
+);
+userData = {
+GSOffsetHorizontal = 75;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetVertical = 51;
+};
+visible = 1;
+}
+);
+instances = (
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Light;
+type = variable;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = 0.16667;
+m01 = 0.83333;
+};
+name = Regular;
+},
+{
+axesValues = (
+475
+);
+instanceInterpolations = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = 0.29167;
+m01 = 0.70833;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+550
+);
+instanceInterpolations = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = 0.41667;
+m01 = 0.58333;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+675
+);
+instanceInterpolations = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = 0.625;
+m01 = 0.375;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+800
+);
+instanceInterpolations = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = 0.83333;
+m01 = 0.16667;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = 1;
+};
+name = Black;
+weightClass = 900;
+}
+);
+kerningLTR = {
+m01 = {
+"@MMK_L_alt_caron" = {
+"@MMK_R_tall_punctuation" = 70;
+};
+"@MMK_L_arch-right-lowercase" = {
+"@MMK_R_undercut-left-lowercase" = -5;
+"@MMK_R_x" = 0;
+};
+"@MMK_L_indented-right-lowercase" = {
+"@MMK_R_round-left-lowercase" = -5;
+};
+"@MMK_L_ogonek" = {
+j = 20;
+};
+"@MMK_L_round-right-lowercase" = {
+"@MMK_R_indented-left-lowercase" = -5;
+"@MMK_R_undercut-left-lowercase" = -10;
+};
+"@MMK_L_round_right_uppercase" = {
+"@MMK_R_undercut_left_uppercase" = -5;
+};
+"@MMK_L_undercut-right-lowercase" = {
+"@MMK_R_round-left-lowercase" = -10;
+quoteright = 30;
+};
+"@MMK_L_undercut_right_uppercase" = {
+"@MMK_R_round-left-lowercase" = -40;
+};
+A = {
+"@MMK_R_round-left-lowercase" = -5;
+C = -20;
+G = -20;
+O = -20;
+V = -30;
+W = -20;
+};
+Aogonek = {
+j = 110;
+};
+F = {
+"@MMK_R_round-left-lowercase" = -5;
+"@MMK_R_short_lower_case" = -10;
+};
+G = {
+I = -20;
+};
+L = {
+O = -20;
+T = -70;
+};
+O = {
+H = 0;
+};
+P = {
+"@MMK_R_round-left-lowercase" = -10;
+"@MMK_R_short_lower_case" = -5;
+};
+T = {
+"@MMK_R_round-left-lowercase" = -60;
+"@MMK_R_short_lower_case" = -50;
+A = -70;
+z = -40;
+};
+V = {
+A = -30;
+};
+W = {
+A = -20;
+};
+X = {
+"@MMK_R_round-left-lowercase" = -20;
+"@MMK_R_undercut-left-lowercase" = 0;
+};
+Y = {
+"@MMK_R_round-left-lowercase" = -50;
+"@MMK_R_short_lower_case" = -20;
+};
+aogonek = {
+j = 50;
+};
+dcaron = {
+"@MMK_R_tall_left_lowercase" = 70;
+};
+eogonek = {
+j = 60;
+};
+f = {
+"@MMK_R_round-left-lowercase" = 0;
+};
+fraction = {
+five.dnom = -10;
+four.dnom = -65;
+three.dnom = -10;
+};
+iogonek = {
+j = 20;
+};
+lcaron = {
+"@MMK_R_tall_left_lowercase" = 70;
+};
+quotedblbase = {
+"@MMK_R_A" = 40;
+};
+quoteright = {
+"@MMK_R_short_lower_case" = 0;
+s = -60;
+};
+seven.numr = {
+fraction = -40;
+};
+tcaron = {
+"@MMK_R_tall_left_lowercase" = 100;
+};
+};
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = {
+"@MMK_L_A" = {
+"@MMK_R_undercut-left-lowercase" = -70;
+};
+"@MMK_L_A_form" = {
+"@MMK_R_undercut-left-lowercase" = -80;
+};
+"@MMK_L_alt_caron" = {
+"@MMK_R_tall_punctuation" = 120;
+};
+"@MMK_L_arch-right-lowercase" = {
+"@MMK_R_tall_left_lowercase" = 0;
+"@MMK_R_undercut-left-lowercase" = -20;
+};
+"@MMK_L_indented-right-lowercase" = {
+"@MMK_R_round-left-lowercase" = -40;
+i = 0;
+parenright = -10;
+};
+"@MMK_L_ogonek" = {
+j = 65;
+};
+"@MMK_L_round-right-lowercase" = {
+"@MMK_R_indented-left-lowercase" = -40;
+"@MMK_R_short_lower_case" = 0;
+"@MMK_R_undercut-left-lowercase" = -30;
+"@MMK_R_x" = -30;
+parenright = -20;
+};
+"@MMK_L_round_right_uppercase" = {
+"@MMK_R_undercut_left_uppercase" = -30;
+};
+"@MMK_L_t" = {
+"@MMK_R_round-left-lowercase" = -15;
+};
+"@MMK_L_undercut-right-lowercase" = {
+"@MMK_R_round-left-lowercase" = -20;
+quoteright = 10;
+};
+"@MMK_L_x" = {
+"@MMK_R_round-left-lowercase" = -30;
+};
+A = {
+"@MMK_R_round-left-lowercase" = -15;
+C = -30;
+G = -50;
+O = -30;
+T = -80;
+V = -110;
+W = -100;
+Y = -60;
+};
+Aogonek = {
+j = 110;
+};
+F = {
+"@MMK_R_round-left-lowercase" = -10;
+"@MMK_R_short_lower_case" = -10;
+"@MMK_R_undercut-left-lowercase" = -10;
+j = -10;
+};
+G = {
+A = -40;
+};
+K = {
+"@MMK_R_round-left-lowercase" = -50;
+"@MMK_R_short_lower_case" = -12;
+"@MMK_R_undercut-left-lowercase" = -50;
+};
+L = {
+"@MMK_R_undercut-left-lowercase" = -30;
+O = -10;
+T = -100;
+Y = -80;
+};
+O = {
+Y = -40;
+};
+P = {
+"@MMK_R_round-left-lowercase" = -10;
+};
+R = {
+"@MMK_R_undercut-left-lowercase" = -30;
+A = 10;
+T = -20;
+};
+T = {
+"@MMK_R_indented-left-lowercase" = -10;
+"@MMK_R_round-left-lowercase" = -70;
+"@MMK_R_short_lower_case" = -30;
+"@MMK_R_undercut-left-lowercase" = -70;
+A = -60;
+z = -20;
+};
+Uogonek = {
+j = 0;
+};
+V = {
+"@MMK_R_round-left-lowercase" = -40;
+"@MMK_R_short_lower_case" = -30;
+A = -110;
+O = -20;
+};
+W = {
+"@MMK_R_round-left-lowercase" = -44;
+"@MMK_R_short_lower_case" = -20;
+"@MMK_R_undercut-left-lowercase" = -5;
+A = -100;
+};
+X = {
+"@MMK_R_round-left-lowercase" = -40;
+"@MMK_R_undercut-left-lowercase" = -50;
+};
+Y = {
+"@MMK_R_indented-left-lowercase" = -60;
+"@MMK_R_round-left-lowercase" = -110;
+"@MMK_R_short_lower_case" = -70;
+"@MMK_R_undercut-left-lowercase" = -60;
+z = -80;
+};
+aogonek = {
+j = 73;
+};
+dcaron = {
+"@MMK_R_tall_left_lowercase" = 120;
+};
+eogonek = {
+j = 60;
+};
+f = {
+"@MMK_R_round-left-lowercase" = -20;
+};
+fraction = {
+four.dnom = -55;
+};
+iogonek = {
+j = 58;
+};
+lcaron = {
+"@MMK_R_tall_left_lowercase" = 120;
+};
+n = {
+parenright = -10;
+};
+o = {
+g = 0;
+};
+parenleft = {
+"@MMK_R_indented-left-lowercase" = -20;
+"@MMK_R_round-left-lowercase" = -20;
+"@MMK_R_short_lower_case" = -10;
+};
+quoteright = {
+s = -100;
+};
+s = {
+s = -2;
+};
+seven.numr = {
+fraction = -20;
+};
+tcaron = {
+"@MMK_R_tall_left_lowercase" = 70;
+};
+z = {
+o = -1;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "Lowercase Ascender";
+}
+);
+properties = (
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Oak Sans Project Authors";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Erik Kennedy, Walven";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Erik Kennedy, Walven";
+}
+);
+}
+);
+stems = (
+{
+name = "Horizontal Stem";
+},
+{
+horizontal = 1;
+name = "Vertical Stem";
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"747A0BA5-337F-45E8-9896-B2CAF0968805" = {
+HH = "170";
+HV = "185";
+OH = "170";
+OV = "190";
+nV = "180";
+nd = "160";
+oH = "165";
+oV = "185";
+tH = "140";
+};
+m01 = {
+HH = "58";
+HV = "64";
+OH = "58";
+OV = "64";
+nV = "60";
+nd = "57";
+oH = "55";
+oV = "60";
+tH = "55";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

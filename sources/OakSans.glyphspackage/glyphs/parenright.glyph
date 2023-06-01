@@ -1,0 +1,31 @@
+{
+glyphname = parenright;
+kernLeft = tall_punctuation;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (340,0);
+ref = parenleft;
+scale = (-1,1);
+}
+);
+width = 340;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (410,0);
+ref = parenleft;
+scale = (-1,1);
+}
+);
+width = 410;
+}
+);
+metricLeft = "=|parenleft";
+metricRight = "=|parenleft";
+unicode = 41;
+}

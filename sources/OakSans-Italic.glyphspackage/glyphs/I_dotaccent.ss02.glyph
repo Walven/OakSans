@@ -1,0 +1,31 @@
+{
+glyphname = Idotaccent.ss02;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = I.ss02;
+},
+{
+pos = (171,170);
+ref = dotaccentcomb;
+}
+);
+width = 364;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = I.ss02;
+},
+{
+pos = (168,200);
+ref = dotaccentcomb;
+}
+);
+width = 465;
+}
+);
+}

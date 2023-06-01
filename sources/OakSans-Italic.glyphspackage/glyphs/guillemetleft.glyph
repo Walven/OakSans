@@ -1,0 +1,37 @@
+{
+glyphname = guillemetleft;
+layers = (
+{
+guides = (
+{
+pos = (70,298);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (177,0);
+ref = guilsinglleft;
+},
+{
+ref = guilsinglleft;
+}
+);
+width = 522;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+pos = (273,0);
+ref = guilsinglleft;
+},
+{
+ref = guilsinglleft;
+}
+);
+width = 710;
+}
+);
+unicode = 171;
+}

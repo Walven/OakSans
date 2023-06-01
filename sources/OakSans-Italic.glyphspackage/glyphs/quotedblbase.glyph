@@ -1,0 +1,30 @@
+{
+glyphname = quotedblbase;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (312,583);
+ref = quotedblleft;
+}
+);
+width = 278;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (504,591);
+ref = quotedblleft;
+}
+);
+width = 496;
+}
+);
+metricLeft = quotedblleft;
+unicode = 8222;
+}

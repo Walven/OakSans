@@ -1,0 +1,34 @@
+{
+glyphname = wacute;
+kernLeft = "undercut-left-lowercase";
+kernRight = "undercut-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w;
+},
+{
+pos = (320,0);
+ref = acutecomb;
+}
+);
+width = 764;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = w;
+},
+{
+pos = (141,0);
+ref = acutecomb;
+}
+);
+width = 893;
+}
+);
+unicode = 7811;
+}

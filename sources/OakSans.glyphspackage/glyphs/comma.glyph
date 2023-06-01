@@ -1,0 +1,36 @@
+{
+glyphname = comma;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(101,-116,l),
+(171,86,l),
+(100,86,l),
+(45,-116,l)
+);
+}
+);
+width = 214;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+closed = 1;
+nodes = (
+(148,-113,l),
+(264,146,l),
+(84,146,l),
+(18,-113,l)
+);
+}
+);
+width = 286;
+}
+);
+unicode = 44;
+}

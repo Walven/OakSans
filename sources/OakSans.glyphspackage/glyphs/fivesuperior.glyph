@@ -1,0 +1,28 @@
+{
+glyphname = fivesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,100);
+ref = five.numr;
+}
+);
+width = 369;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (0,100);
+ref = five.numr;
+}
+);
+width = 365;
+}
+);
+metricLeft = five.numr;
+metricRight = five.numr;
+unicode = 8309;
+}

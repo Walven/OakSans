@@ -1,0 +1,40 @@
+{
+glyphname = ellipsis;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = period;
+},
+{
+pos = (192,0);
+ref = period;
+},
+{
+pos = (384,0);
+ref = period;
+}
+);
+width = 576;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = period;
+},
+{
+pos = (256,0);
+ref = period;
+},
+{
+pos = (512,0);
+ref = period;
+}
+);
+width = 798;
+}
+);
+unicode = 8230;
+}

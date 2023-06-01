@@ -1,0 +1,30 @@
+{
+glyphname = lessequal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (620,0);
+ref = greaterequal;
+scale = (-1,1);
+}
+);
+width = 620;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (640,0);
+ref = greaterequal;
+scale = (-1,1);
+}
+);
+width = 640;
+}
+);
+metricLeft = "=less";
+metricRight = "=less";
+unicode = 8804;
+}

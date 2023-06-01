@@ -1,0 +1,31 @@
+{
+glyphname = braceright;
+kernLeft = tall_punctuation;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (382,0);
+ref = braceleft;
+scale = (-1,1);
+}
+);
+width = 382;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (402,0);
+ref = braceleft;
+scale = (-1,1);
+}
+);
+width = 402;
+}
+);
+metricLeft = "=|braceleft";
+metricRight = "=|braceleft";
+unicode = 125;
+}

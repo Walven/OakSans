@@ -1,0 +1,34 @@
+{
+glyphname = dcaron;
+kernLeft = "round-left-lowercase";
+kernRight = alt_caron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (508,0);
+ref = caroncomb.alt;
+}
+);
+width = 582;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = d;
+},
+{
+pos = (560,0);
+ref = caroncomb.alt;
+}
+);
+width = 604;
+}
+);
+unicode = 271;
+}

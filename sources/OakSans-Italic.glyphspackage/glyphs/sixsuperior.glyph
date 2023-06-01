@@ -1,0 +1,28 @@
+{
+glyphname = sixsuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (17,100);
+ref = six.numr;
+}
+);
+width = 354;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+pos = (17,100);
+ref = six.numr;
+}
+);
+width = 366;
+}
+);
+metricLeft = six.numr;
+metricRight = six.numr;
+unicode = 8310;
+}

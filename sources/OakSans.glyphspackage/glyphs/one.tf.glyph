@@ -1,0 +1,45 @@
+{
+glyphname = one.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(352,0,l),
+(352,57,l),
+(333,57,l),
+(333,0,l)
+);
+},
+{
+alignment = -1;
+pos = (85,0);
+ref = one;
+}
+);
+width = 620;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+closed = 1;
+nodes = (
+(382,0,l),
+(382,162,l),
+(334,162,l),
+(334,0,l)
+);
+},
+{
+alignment = -1;
+pos = (96,0);
+ref = one;
+}
+);
+width = 640;
+}
+);
+}

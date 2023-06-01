@@ -1,0 +1,28 @@
+{
+glyphname = dieresis;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (76,0);
+ref = dieresiscomb;
+}
+);
+width = 422;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+pos = (-17,0);
+ref = dieresiscomb;
+}
+);
+width = 526;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 168;
+}

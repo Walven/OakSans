@@ -1,0 +1,31 @@
+{
+glyphname = bracketright;
+kernLeft = tall_punctuation;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (349,700);
+ref = bracketleft;
+}
+);
+width = 316;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+angle = 180;
+pos = (395,700);
+ref = bracketleft;
+}
+);
+width = 362;
+}
+);
+metricLeft = "=|bracketleft";
+metricRight = "=|bracketleft";
+unicode = 93;
+}

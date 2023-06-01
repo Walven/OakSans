@@ -1,0 +1,104 @@
+{
+glyphname = imacron;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (68,0);
+},
+{
+name = ogonek;
+pos = (97,0);
+},
+{
+name = top;
+pos = (152,500);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(97,0,l),
+(183,500,l),
+(123,500,l),
+(37,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(287,580,l),
+(296,637,l),
+(46,637,l),
+(38,580,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-43,0);
+ref = macroncomb.narrow;
+}
+);
+width = 221;
+},
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (103,0);
+},
+{
+name = ogonek;
+pos = (193,0);
+},
+{
+name = top;
+pos = (187,500);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(193,0,l),
+(277,500,l),
+(97,500,l),
+(13,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(365,549,l),
+(390,700,l),
+(50,700,l),
+(25,549,l)
+);
+}
+);
+};
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-25,0);
+ref = macroncomb.narrow;
+}
+);
+width = 290;
+}
+);
+unicode = 299;
+}

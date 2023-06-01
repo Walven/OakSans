@@ -1,0 +1,33 @@
+{
+glyphname = aring;
+kernLeft = "round-left-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (132,0);
+ref = ringcomb;
+}
+);
+width = 583;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (130,0);
+ref = ringcomb;
+}
+);
+width = 606;
+}
+);
+unicode = 229;
+}

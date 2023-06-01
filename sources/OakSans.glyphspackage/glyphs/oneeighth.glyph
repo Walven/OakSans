@@ -1,0 +1,42 @@
+{
+glyphname = oneeighth;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (282,0);
+ref = fraction;
+},
+{
+pos = (498,0);
+ref = eight.dnom;
+}
+);
+width = 890;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (279,0);
+ref = fraction;
+},
+{
+pos = (505,0);
+ref = eight.dnom;
+}
+);
+width = 883;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 8539;
+}

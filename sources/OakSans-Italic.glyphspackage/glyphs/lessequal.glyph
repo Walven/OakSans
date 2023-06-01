@@ -1,0 +1,65 @@
+{
+glyphname = lessequal;
+layers = (
+{
+guides = (
+{
+angle = 80.5;
+pos = (159,369);
+}
+);
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (636,596);
+ref = greater;
+},
+{
+closed = 1;
+nodes = (
+(428,0,l),
+(437,51,l),
+(106,51,l),
+(97,0,l)
+);
+}
+);
+width = 620;
+},
+{
+guides = (
+{
+angle = 80.5;
+pos = (115,227);
+},
+{
+angle = 80.5;
+pos = (515,227);
+}
+);
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+angle = 180.5;
+pos = (661,627);
+ref = greater;
+scale = (0.9975,0.9);
+},
+{
+closed = 1;
+nodes = (
+(477,0,l),
+(497,120,l),
+(97,120,l),
+(77,0,l)
+);
+}
+);
+width = 640;
+}
+);
+metricLeft = "=less";
+metricRight = "=less";
+unicode = 8804;
+}

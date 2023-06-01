@@ -1,0 +1,33 @@
+{
+glyphname = Eogonek;
+kernRight = ogonek;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (305,0);
+ref = ogonekcomb;
+}
+);
+width = 593;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (316,0);
+ref = ogonekcomb;
+}
+);
+width = 586;
+}
+);
+unicode = 280;
+}

@@ -1,0 +1,52 @@
+{
+glyphname = p;
+kernLeft = short_lower_case;
+kernRight = "round-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,-200,l),
+(166,408,l),
+(178,500,l),
+(122,500,l),
+(5,-200,l)
+);
+},
+{
+angle = 180;
+pos = (587,500);
+ref = Bowl;
+}
+);
+width = 588;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,-200,l),
+(256,408,l),
+(262,500,l),
+(92,500,l),
+(-25,-200,l)
+);
+},
+{
+angle = 180;
+pos = (601,500);
+ref = Bowl;
+}
+);
+width = 612;
+}
+);
+metricLeft = "=n+5";
+metricRight = o;
+unicode = 112;
+}

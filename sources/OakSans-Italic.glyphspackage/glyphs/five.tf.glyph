@@ -1,0 +1,27 @@
+{
+glyphname = five.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (24,0);
+ref = five;
+}
+);
+width = 620;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+alignment = -1;
+pos = (27,0);
+ref = five;
+}
+);
+width = 640;
+}
+);
+}

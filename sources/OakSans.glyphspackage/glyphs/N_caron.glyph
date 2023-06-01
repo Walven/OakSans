@@ -1,0 +1,32 @@
+{
+glyphname = Ncaron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (218,170);
+ref = caroncomb;
+}
+);
+width = 774;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (169,180);
+ref = caroncomb;
+}
+);
+width = 773;
+}
+);
+unicode = 327;
+}

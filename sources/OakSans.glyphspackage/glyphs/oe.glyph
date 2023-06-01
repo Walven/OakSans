@@ -1,0 +1,38 @@
+{
+glyphname = oe;
+kernLeft = "round-left-lowercase";
+kernRight = "round-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+alignment = -1;
+pos = (439,0);
+ref = e;
+}
+);
+width = 982;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = o;
+},
+{
+alignment = -1;
+pos = (442,0);
+ref = e;
+}
+);
+width = 1008;
+}
+);
+metricLeft = o;
+metricRight = e;
+unicode = 339;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = kcommaaccent;
+kernLeft = tall_left_lowercase;
+kernRight = "indented-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k;
+},
+{
+pos = (155,0);
+ref = commaaccentcomb;
+}
+);
+width = 465;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = k;
+},
+{
+pos = (142,0);
+ref = commaaccentcomb;
+}
+);
+width = 586;
+}
+);
+unicode = 311;
+}

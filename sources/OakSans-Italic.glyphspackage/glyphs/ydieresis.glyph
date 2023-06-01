@@ -1,0 +1,34 @@
+{
+glyphname = ydieresis;
+kernLeft = "undercut-left-lowercase";
+kernRight = "undercut-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (117,0);
+ref = dieresiscomb;
+}
+);
+width = 506;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (31,0);
+ref = dieresiscomb;
+}
+);
+width = 622;
+}
+);
+unicode = 255;
+}

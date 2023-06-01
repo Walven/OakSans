@@ -1,0 +1,37 @@
+{
+glyphname = quotesingle;
+kernLeft = tall_punctuation;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(117,490,l),
+(122,716,l),
+(60,716,l),
+(65,490,l)
+);
+}
+);
+width = 182;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+closed = 1;
+nodes = (
+(207,440,l),
+(227,716,l),
+(60,716,l),
+(80,440,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 39;
+}

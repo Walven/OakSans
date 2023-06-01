@@ -1,0 +1,49 @@
+{
+glyphname = thorn;
+kernRight = "round-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,-200,l),
+(210,700,l),
+(150,700,l),
+(0,-200,l)
+);
+},
+{
+angle = 180;
+pos = (582,500);
+ref = Bowl;
+}
+);
+width = 583;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,-200,l),
+(300,700,l),
+(120,700,l),
+(-30,-200,l)
+);
+},
+{
+angle = 180;
+pos = (596,500);
+ref = Bowl;
+}
+);
+width = 607;
+}
+);
+metricLeft = l;
+metricRight = p;
+unicode = 254;
+}

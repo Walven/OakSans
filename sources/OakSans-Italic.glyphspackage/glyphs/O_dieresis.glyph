@@ -1,0 +1,34 @@
+{
+glyphname = Odieresis;
+kernLeft = round_left_uppercase;
+kernRight = round_right_uppercase;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (279,170);
+ref = dieresiscomb;
+}
+);
+width = 772;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (126,200);
+ref = dieresiscomb;
+}
+);
+width = 800;
+}
+);
+unicode = 214;
+}

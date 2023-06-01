@@ -1,0 +1,28 @@
+{
+glyphname = one.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-47,-280);
+ref = one.numr;
+}
+);
+width = 283;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+pos = (-47,-280);
+ref = one.numr;
+}
+);
+width = 283;
+}
+);
+metricLeft = "=one*.7";
+metricRight = "=one*.7";
+}

@@ -1,0 +1,39 @@
+{
+glyphname = i;
+kernLeft = tall_left_lowercase;
+layers = (
+{
+layerId = m01;
+metricLeft = "=l-5";
+metricRight = "=l-5";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (70,0);
+ref = dotaccentcomb;
+}
+);
+width = 220;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+metricLeft = "=l-10";
+metricRight = "=l-10";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (45,0);
+ref = dotaccentcomb;
+}
+);
+width = 290;
+}
+);
+metricLeft = "=l-11";
+metricRight = "=l-11";
+unicode = 105;
+}

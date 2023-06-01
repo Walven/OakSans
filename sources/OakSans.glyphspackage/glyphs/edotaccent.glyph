@@ -1,0 +1,34 @@
+{
+glyphname = edotaccent;
+kernLeft = "round-left-lowercase";
+kernRight = "round-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (246,0);
+ref = dotaccentcomb;
+}
+);
+width = 543;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (195,0);
+ref = dotaccentcomb;
+}
+);
+width = 566;
+}
+);
+unicode = 279;
+}

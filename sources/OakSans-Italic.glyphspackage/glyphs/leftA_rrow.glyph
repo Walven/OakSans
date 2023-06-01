@@ -1,0 +1,30 @@
+{
+glyphname = leftArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (756,595);
+ref = rightArrow;
+}
+);
+width = 740;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+angle = 180;
+pos = (775,600);
+ref = rightArrow;
+}
+);
+width = 759;
+}
+);
+metricLeft = "=|rightArrow";
+metricRight = "=|rightArrow";
+unicode = 8592;
+}

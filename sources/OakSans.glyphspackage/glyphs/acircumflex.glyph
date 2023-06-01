@@ -1,0 +1,34 @@
+{
+glyphname = acircumflex;
+kernLeft = "round-left-lowercase";
+kernRight = "arch-right-lowercase";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (89,0);
+ref = circumflexcomb;
+}
+);
+width = 501;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (24,0);
+ref = circumflexcomb;
+}
+);
+width = 546;
+}
+);
+unicode = 226;
+}

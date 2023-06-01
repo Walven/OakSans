@@ -1,0 +1,34 @@
+{
+glyphname = Eacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (19,195);
+ref = acutecomb;
+scale = (1,0.95);
+}
+);
+width = 593;
+},
+{
+layerId = "747A0BA5-337F-45E8-9896-B2CAF0968805";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (-60,225);
+ref = acutecomb;
+scale = (1,0.95);
+}
+);
+width = 586;
+}
+);
+unicode = 201;
+}

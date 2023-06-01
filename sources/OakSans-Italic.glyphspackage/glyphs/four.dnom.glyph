@@ -1,0 +1,28 @@
+{
+glyphname = four.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-47,-280);
+ref = four.numr;
+}
+);
+width = 391;
+},
+{
+layerId = "AEB41AA6-A430-455D-A6E9-A3012AD74722";
+shapes = (
+{
+alignment = -1;
+pos = (-47,-280);
+ref = four.numr;
+}
+);
+width = 400;
+}
+);
+metricLeft = "=four*.7";
+metricRight = "=four*.7";
+}
