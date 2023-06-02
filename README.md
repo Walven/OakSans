@@ -7,6 +7,7 @@
 ### Version 1.000
 - Initial version released under SIL Open Font License
 - Western character set
+- Weight settings: Medium at 475, Semibold at 550, Bold at 675, Extrabold at 800
 - Higher ascenders for lowercase `b`/`d`/`h`/`k`/`l`
 - Lower crossbar for uppercase `A`
 - Specific stylistic sets `ss02` for disambiguation of uppercase `i`
