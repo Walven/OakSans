@@ -440,6 +440,7 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 27;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -1002,5 +1003,5 @@ tH = "55";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
