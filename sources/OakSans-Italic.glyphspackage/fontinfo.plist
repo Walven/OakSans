@@ -434,6 +434,7 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 28;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -519,6 +520,7 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 82;
 };
+visible = 1;
 }
 );
 instances = (
@@ -999,5 +1001,5 @@ tH = "55";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
