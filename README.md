@@ -4,7 +4,10 @@
 
 ## Changelog
 
-### Version 1.000
+### Version 1.1
+- Added Ruble glyph for use as Pokédollar symbol
+
+### Version 1.0
 - Initial version released under SIL Open Font License
 - Western character set
 - Weight settings: Medium at 475, Semibold at 550, Bold at 675, Extrabold at 800
